@@ -1,0 +1,142 @@
+{
+    "name" : {
+        "name" : {
+            "ES" : "Martín Rodríguez",
+            "EN" : "Martin Rodriguez",
+            "DE" : "Martin Rodriguez"
+        }
+    },
+    "position" : {
+        "name" : {
+            "ES" : "Desarrollador de software / Diseñador web",
+            "EN" : "Software Developer / Web designer",
+            "DE" : "Softwareentwickler / Webentwickler"
+        }
+    },
+    "about" : {
+        "title" : {
+            "ES" : "Sobre mí",
+            "EN" : "About me",
+            "DE" : "Über mich"
+        },
+        "description" : {
+            "ES" : "“Lorem ipsum dolor sit amet”",
+            "EN" : "“Lorem ipsum dolor sit amet”",
+            "DE" : "„Lorem ipsum dolor sit amet”"
+        }
+    },
+    "personal_info" : {
+        "title" : {
+            "ES" : "Información personal",
+            "EN" : "Personal information",
+            "DE" : "Persönliche Angaben"
+        },
+        "name_title" : {
+            "ES" : "Nombre",
+            "EN" : "Name",
+            "DE" : "Name"
+        },
+        "birthday_title" : {
+            "ES" : "Fecha de nacimiento",
+            "EN" : "Birthday",
+            "DE" : "Geburtstag"
+        },
+        "place_birth_title" : {
+            "ES" : "Lugar de nacimiento",
+            "EN" : "Place of Birth",
+            "DE" : "Geburtsort"
+        },
+        "nationality_title" : {
+            "ES" : "Nacionalidad",
+            "EN" : "Nationality",
+            "DE" : "Staatsangehörigkeit"
+        },
+        "marital_status_title" : {
+            "ES" : "Estado civil",
+            "EN" : "Marital Status",
+            "DE" : "Familienstand"
+        },
+        "freelance_title" : {
+            "ES" : "Freelance",
+            "EN" : "Freelance",
+            "DE" : "Freelance"
+        },
+        "name" : {
+            "ES" : "Martín Rodríguez Polo",
+            "EN" : "Martin Rodriguez Polo",
+            "DE" : "Martin Rodriguez Polo"
+        },
+        "birthday" : {
+            "ES" : "05 Septiembre 1997",
+            "EN" : "05 September 1997",
+            "DE" : "05 September 1997"
+        },
+        "place_birth" : {
+            "ES" : "Barranquila, Colombia",
+            "EN" : "Barranquila, Colombia",
+            "DE" : "Barranquila, Kolumbien"
+        },
+        "nationality" : {
+            "ES" : "Colombia",
+            "EN" : "Colombia",
+            "DE" : "Kolumbien"
+        },
+        "marital_status" : {
+            "ES" : "Estado civil",
+            "EN" : "Marital Status",
+            "DE" : "Familienstand"
+        },
+        "freelance" : {
+            "ES" : "Disponible",
+            "EN" : "Available",
+            "DE" : "Verfügbar"
+        }
+    },
+    "contact_info" : {
+        "title" : {
+            "ES" : "Información de contacto",
+            "EN" : "Contact info",
+            "DE" : "Kontaktinformation"
+        },
+        "adress_title" : {
+            "ES" : "Dirección",
+            "EN" : "Adress",
+            "DE" : "Adresse"
+        },
+        "email_title" : {
+            "ES" : "Correo electrónico",
+            "EN" : "E-Mail",
+            "DE" : "E-Mail"
+        },
+        "website_title" : {
+            "ES" : "Sitio web",
+            "EN" : "Website",
+            "DE" : "Website"
+        },
+        "phone_title" : {
+            "ES" : "Teléfono",
+            "EN" : "Phone",
+            "DE" : "Telefonnummer"
+        },
+        "adress" : {
+            "ES" : "Calle 159B # 7F-60, Bogotá Colombia",
+            "EN" : "Calle 159B # 7F-60, Bogota Colombia",
+            "DE" : "Calle 159B # 7F-60, Bogotá Kolumbien"
+        },
+        "email" : {
+            "ES" : "martin97polo@gmail.com",
+            "EN" : "martin97polo@gmail.com",
+            "DE" : "martin97polo@gmail.com"
+        },
+        "website" : {
+            "ES" : "Sitio web",
+            "EN" : "www.martinrodriguez.com",
+            "DE" : "www.martinrodriguez.com"
+        },
+        "phone" : {
+            "ES" : "+57 314 472 1774",
+            "EN" : "+57 314 472 1774",
+            "DE" : "+57 314 472 1774"
+        }
+    }
+}

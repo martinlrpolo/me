@@ -1,0 +1,112 @@
+{
+    "resume" : {
+        "title" : {
+            "ES" : "Currículum",
+            "EN" : "Resume",
+            "DE" : "Lebenslauf"
+        },
+        "subtitle" : {
+            "ES" : "Información",
+            "EN" : "Information",
+            "DE" : "Information"
+        }
+    },
+    "experience" : {
+        "title" : {
+            "ES" : "Experiencia",
+            "EN" : "Experience",
+            "DE" : "Erfahrung"
+        },
+        "list" : [
+
+            {
+                "date" : {
+                    "ES" : "Septiembre 2019",
+                    "EN" : "September 2019",
+                    "DE" : "September 2019"
+                },
+                "position" : {
+                    "ES" : "Desarrollador de software",
+                    "EN" : "Software Developer",
+                    "DE" : "Softwareentwickler"
+                },
+                "description" : {
+                    "ES" : "Ut enim ad minim veniam",
+                    "EN" : "Ut enim ad minim veniam",
+                    "DE" : "Ut enim ad minim veniam"
+                },
+                "skills" : {
+                    "ES" : ["Ut enim", "Ut enim"],
+                    "EN" : ["Ut enim", "Ut enim"],
+                    "DE" : ["Ut enim", "Ut enim"]
+                },
+				"enterprise": {
+					"ES" : "Habilidades principales",
+					"EN" : "Skills",
+					"DE" : "Skills"
+				}
+            }
+
+        ]
+    },
+    "education" : {
+        "title" : {
+            "ES" : "Educacion",
+            "EN" : "Education",
+            "DE" : "Education"
+        },
+        "list" : [
+
+            {
+                "date" : {
+                    "ES" : "Septiembre 2019",
+                    "EN" : "September 2019",
+                    "DE" : "September 2019"
+                },
+                "position" : {
+                    "ES" : "Desarrollador de software",
+                    "EN" : "Software Developer",
+                    "DE" : "Softwareentwickler"
+                },
+                "description" : {
+                    "ES" : "Ut enim ad minim veniam",
+                    "EN" : "Ut enim ad minim veniam",
+                    "DE" : "Ut enim ad minim veniam"
+                }
+            }
+
+        ]
+    },
+    "pincipal_skills" : {
+        "title" : {
+            "ES" : "Habilidades principales",
+            "EN" : "Skills",
+            "DE" : "Skills"
+        },
+        "list" : [
+            { "title" : "PHP", "score" : 5},
+            { "title" : "JAVA", "score" : 7}
+        ]
+    },
+    "languages" : {
+        "title" : {
+            "ES" : "Idiomas",
+            "EN" : "Languages",
+            "DE" : "Sprachen"
+        },
+        "list" : [
+            {
+                "title" : {
+                    "ES" : "Español",
+                    "EN" : "Spanish",
+                    "DE" : "Spanisch"
+                },
+                "description" : {
+                    "ES" : "Ut enim ad minim veniam",
+                    "EN" : "Ut enim ad minim veniam",
+                    "DE" : "Ut enim ad minim veniam"
+                }
+            }
+        ]
+    }
+}

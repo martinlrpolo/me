@@ -1,0 +1,45 @@
+{
+    "name" : {
+        "name" : {
+            "ES" : "Martín Rodríguez",
+            "EN" : "Martin Rodriguez",
+            "DE" : "Martin Rodriguez"
+        }
+    },
+    "about" : {
+        "title" : {
+            "ES" : "Sobre mí",
+            "EN" : "About me",
+            "DE" : "Über mich"
+        },
+        "subtitle" : {
+            "ES" : "Información",
+            "EN" : "Information",
+            "DE" : "Information"
+        }
+    },
+    "resume" : {
+        "title" : {
+            "ES" : "Currículum",
+            "EN" : "Resume",
+            "DE" : "Lebenslauf"
+        },
+        "subtitle" : {
+            "ES" : "Información",
+            "EN" : "Information",
+            "DE" : "Information"
+        }
+    },
+    "portfolio" : {
+        "title" : {
+            "ES" : "Portafolio",
+            "EN" : "Portfolio",
+            "DE" : "Portfolio"
+        },
+        "subtitle" : {
+            "ES" : "Mis trabajos",
+            "EN" : "My jobs",
+            "DE" : "Meine Jobs"
+        }
+    }
+}

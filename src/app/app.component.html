@@ -1,0 +1,34 @@
+<!-- Preloader -->
+<div class="loader">
+    <!-- Preloader inner -->
+    <div class="loader-inner">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+    <!-- End preloader inner -->
+</div>
+<!-- End preloader-->
+
+<div id="wrapper" class="mt-150 mb-150">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center" style="margin-bottom: 20px;">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary" (click)="language('EN')"><img width="50" src="assets/img/uk.png" /></button>
+                    <button type="button" class="btn btn-secondary" (click)="language('DE')"><img width="50" src="assets/img/germany.png" /></button>
+                    <button type="button" class="btn btn-secondary" (click)="language('ES')"><img width="50" src="assets/img/spain.png" /></button>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <app-menu></app-menu>
+            <div class="col-md-9 right-content pd-r0 pd-l0">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+
+</div>

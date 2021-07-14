@@ -1,0 +1,383 @@
+<!--Resume Tab-->
+<section id="resume" class="bg-white t-center" *ngIf="text != null">
+
+    <!--Resume-->
+    <div class="resume">
+
+        <!--Content-->
+        <div class="content">
+
+            <!--Block content-->
+            <div class="block-content mb-100">
+
+
+                <!--Row-->
+                <div class="row">
+
+                    <div class="col-md-12  ">
+                        <div class="main-title">
+                            <h1 class="mb-20">{{text['resume']['title'][lg]}}</h1>
+                            <h5 class="uppercase">{{text['resume']['subtitle'][lg]}}</h5>
+                        </div>
+                    </div>
+            
+                </div>
+                <!--End row-->
+
+            </div>
+            <!--End block content-->
+
+
+            <!--Block content-->
+            <div class="block-content mb-100  pb-10">
+
+                <!--Row-->
+                <div class="row">
+
+                    <div class="col-md-12  ">
+
+                        <div class="sub-title mb-40">
+                            <h2 class="uppercase">{{text['experience']['title'][lg]}}</h2>
+                        </div>
+
+                    </div>
+                </div>
+                <!--End row-->
+
+
+                <!--Row-->
+                <div class="row">
+                    <div class="col-md-12  ">
+
+                        <!--Timeline-->
+                        <div class="timeline">
+                            <div class="timeline-inner" *ngFor="let e of text.experience.list">
+                                <div class="name">
+									<h4 style="color:#31708f">{{e['enterprise'][lg]}}</h4>
+                                    <span class="date">{{e['date'][lg]}}</span>
+                                    <h4 style="font-size:12px">{{e['position'][lg]}}</h4>
+                                </div>
+                                <div class="detail">
+                                    <p>{{e['description'][lg]}}</p>
+                                    <ul>
+                                        <li *ngFor="let s of e['skills'][lg]">• {{s}}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End timeline-->
+
+                    </div>
+                </div>
+                <!--End row-->
+
+            </div>
+            <!--End block content-->
+
+            <!--Block content-->
+            <div class="block-content mb-100  pb-10">
+
+                <!--Row-->
+                <div class="row">
+
+                    <div class="col-md-12  ">
+
+                        <div class="sub-title mb-40">
+                            <h2 class="uppercase">Education</h2>
+                        </div>
+
+                    </div>
+                </div>
+                <!--End row-->
+
+
+                <!--Row-->
+                <div class="row">
+                    <div class="col-md-12  ">
+
+                        <!--Timeline-->
+                        <div class="timeline">
+
+                            <div class="timeline-inner" *ngFor="let e of text.education.list">
+                                <div class="name">
+                                    <span class="date">{{e['date'][lg]}}</span>
+                                    <h4>{{e['position'][lg]}}</h4>
+                                </div>
+                                <div class="detail">
+                                    <p>{{e['description'][lg]}}</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--End timeline-->
+
+                    </div>
+                </div>
+                <!--End row-->
+
+
+            </div>
+            <!--End block content-->
+
+            <!--Block content-->
+            <div class="block-content mb-100  pb-30">
+
+
+                <!--Row-->
+                <div class="row">
+
+                    <div class="col-md-12  ">
+
+                        <div class="sub-title mb-40">
+                            <h2 class="uppercase">{{text['pincipal_skills']['title'][lg]}}</h2>
+                        </div>
+
+                    </div>
+                </div>
+                <!--End row-->
+
+                <!--Row-->
+                <div class="row">
+                    <div class="col-md-12  ">
+
+                        <!--Listing-->
+                        <div class="listing-large mt-40">
+
+                            <a class="uppercase emph-1 btn-1" href="#">Download my cv</a>
+                            <a class="uppercase emph-1 btn-2" href="#">Print My resume</a>
+                            <div class="listing-large-inner">
+                                <div class="listing-event">
+                                    <ul class="data left clearfix">
+
+                                        <li *ngFor="let s of text.pincipal_skills.list">
+                                            <h5>{{s.title}}</h5>
+                                            <div class="rating">
+                                                <span *ngFor="let item of counter(10); let i = index;" [ngClass]="{'transparent': i >= s.score}"></span>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+
+                                    <ul class="data right clearfix">
+                                        <!--
+                                        <li>
+                                            <h5>Assests</h5>
+                                            <p class="emph-3">Responsible, Diligence, Labour, Rigor,
+                                                Creative, Funny, Great Communicator, Flexible</p>
+                                        </li>
+                                        -->
+
+
+                                        <li>
+                                            <h5>Languages</h5>
+                                            <ul>
+                                                <li class="emph-1">English <span class="emph-4">(Advanced
+                                                        Speaking)</span>
+                                                </li>
+                                                <li class="emph-1">Frensh <span class="emph-4">(fluent Speaking)</span>
+                                                </li>
+                                                <li class="emph-1">German <span class="emph-4">(Basic Knowledge)</span>
+                                                </li>
+                                                <li class="emph-1">Spanish <span class="emph-4">(Beginner)</span></li>
+                                            </ul>
+                                        </li>
+
+
+                                        <li>
+                                            <h5>Hobbies &amp; Interests</h5>
+                                            <ul class="hb-list">
+                                                <li>
+                                                    <span><i class="icon-music-4"></i></span>
+                                                    <h6>Music</h6>
+                                                </li>
+
+                                                <li>
+                                                    <span><i class="icon-star-7"></i></span>
+                                                    <h6>Gaming</h6>
+                                                </li>
+
+                                                <li>
+                                                    <span><i class="icon-globe-6"></i></span>
+                                                    <h6>Travel</h6>
+                                                </li>
+
+                                                <li>
+                                                    <span><i class="icon-food-1"></i></span>
+                                                    <h6>Cooking</h6>
+                                                </li>
+
+                                            </ul>
+
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--End listing-->
+
+                    </div>
+                </div>
+                <!--End row-->
+
+
+            </div>
+            <!--End block content-->
+
+
+            <!--Block content-->
+            <div class="block-content mb-50  pb-30">
+
+                <!--Row-->
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="sub-title mb-40">
+                            <h2 class="uppercase">Services</h2>
+                        </div>
+
+                    </div>
+                </div>
+                <!--End row-->
+
+
+                <!--Row-->
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <img alt="" src="img/service.jpg">
+                    </div>
+
+                </div>
+                <!--End row-->
+
+
+                <!--Row-->
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="services mt-30">
+
+                            <div class="block-service clearfix">
+
+
+                                <div class="col-sm-6 text-center">
+                                    <div class="ico mb-15">
+                                        <i class="icon-thumbs-up-5"></i>
+                                    </div>
+
+                                    <div class="det">
+                                        <h5 class="mb-10">Great Support</h5>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit
+                                            voluptatem accusantium.</p>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-sm-6 text-center">
+                                    <div class="ico mb-15">
+                                        <i class="icon-pencil-7"></i>
+                                    </div>
+
+                                    <div class="det">
+                                        <h5 class="mb-10">Print &amp; Branding</h5>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit
+                                            voluptatem accusantium.</p>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-sm-6 text-center">
+                                    <div class="ico mb-15">
+                                        <i class="icon-megaphone-3"></i>
+                                    </div>
+
+                                    <div class="det">
+                                        <h5 class="mb-10">Marketing</h5>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit
+                                            voluptatem accusantium.</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-sm-6 text-center">
+                                    <div class="ico mb-15">
+                                        <i class="icon-desktop-3"></i>
+                                    </div>
+
+                                    <div class="det">
+                                        <h5 class="mb-10">Web Design</h5>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit
+                                            voluptatem accusantium.</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-sm-6 text-center">
+                                    <div class="ico mb-15">
+                                        <i class="icon-params"></i>
+                                    </div>
+
+                                    <div class="det">
+                                        <h5 class="mb-10">Development</h5>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit
+                                            voluptatem accusantium.</p>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-sm-6 text-center">
+                                    <div class="ico mb-15">
+                                        <i class="icon-lightbulb-3"></i>
+                                    </div>
+
+                                    <div class="det">
+                                        <h5 class="mb-10">Branding</h5>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit
+                                            voluptatem accusantium.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!--End row-->
+
+                </div>
+
+            </div>
+            <!--End block content-->
+
+            <!--Block content-->
+            <div class="block-content">
+
+                <!--Row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <span class="page-number emph-1">- 2/5 -</span>
+                    </div>
+
+                </div>
+                <!--End row-->
+            </div>
+            <!--End block content-->
+
+        </div>
+        <!--End content-->
+
+    </div>
+    <!--End resume-->
+
+</section>
+<!--End resume tab-->

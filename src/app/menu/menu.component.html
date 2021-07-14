@@ -1,0 +1,61 @@
+<!--Left content-->
+<div class="col-md-2 left-content pd-r0">
+
+    <!--Header-->
+    <header id="header">
+
+        <!--Main header-->
+        <div class="main-header" *ngIf="text != null">
+
+            <!--Profile image-->
+            <div class="img-profile">
+                <img src="assets/img/me.jpg" alt="" />
+
+                <div class="name-profile t-center">
+                    <h5 class="uppercase">{{text['name']['name'][lg]}}</h5>
+                </div>
+
+            </div>
+            <!--End profile image-->
+
+            <!--Main navigation-->
+            <nav id="main-nav" class="main-nav clearfix t-center uppercase tabbed">
+
+                <ul class="clearfix">
+                    <li>
+                        <a routerLink="about">
+                            <i class="icon-user"></i>
+                            {{text['about']['title'][lg]}}
+                            <span>{{text['about']['subtitle'][lg]}}</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a routerLink="resume">
+                            <i class="icon-briefcase"></i>
+                            {{text['resume']['title'][lg]}}
+                            <span>{{text['resume']['subtitle'][lg]}}</span>
+                        </a>
+                    </li>
+                    <!--
+                    <li>
+                        <a routerLink="portfolio">
+                            <i class="icon-camera"></i>
+                            {{text['portfolio']['title'][lg]}}
+                            <span>{{text['portfolio']['subtitle'][lg]}}</span>
+                        </a>
+                    </li>
+                    -->
+                </ul>
+
+            </nav>
+            <!--End main navigation-->
+
+        </div>
+        <!--End main header-->
+
+    </header>
+    <!--End  header-->
+
+
+</div>
+<!--End left content-->
